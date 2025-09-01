@@ -1,0 +1,43 @@
+.address-list {
+  margin-top: 20px;
+}
+
+.address-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.address-list th,
+.address-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.btn-edit {
+  background-color: #ffc107;
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  margin-right: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  border: none;
+  padding: 6px 10px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .address-list table,
+  .address-list th,
+  .address-list td {
+    font-size: 14px;
+  }
+}

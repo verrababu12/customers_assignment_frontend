@@ -1,0 +1,61 @@
+.customer-detail-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.customer-detail-page h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.customer-detail-page p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.customer-detail-page .btn {
+  background-color: #6c757d;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.customer-detail-page .btn:hover {
+  background-color: #5a6268;
+}
+
+.address-list {
+  margin-top: 20px;
+}
+
+.address-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.address-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+  .customer-detail-page {
+    padding: 10px;
+  }
+
+  .customer-detail-page h2 {
+    font-size: 20px;
+  }
+
+  .customer-detail-page p {
+    font-size: 14px;
+  }
+
+  .address-list li {
+    font-size: 14px;
+  }
+}
