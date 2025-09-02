@@ -48,6 +48,8 @@ const CustomerListPage = () => {
     <div className="customer-list-page">
       <div className="header">
         <h1>Customers</h1>
+        <h3>Click on a customer's first name to view their address details</h3>
+
         <Link to="/customers/new" className="btn btn-primary">
           + Add Customer
         </Link>
@@ -70,8 +72,8 @@ const CustomerListPage = () => {
         <table className="customer-table">
           <thead>
             <tr>
-              <th>firstName</th>
-              <th>lastName</th>
+              <th>FirstName</th>
+              <th>LastName</th>
               <th>Phone</th>
               <th>Actions</th>
             </tr>
