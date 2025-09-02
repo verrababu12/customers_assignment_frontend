@@ -1,6 +1,109 @@
 .customer-detail-page {
   padding: 20px;
   font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ---------- Headings ---------- */
+.customer-detail-page h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* ---------- Description ---------- */
+.customer-detail-page p {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* ---------- Button ---------- */
+.customer-detail-page .btn {
+  background-color: #6c757d;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.customer-detail-page .btn:hover {
+  background-color: #5a6268;
+}
+
+/* ---------- Address List ---------- */
+.address-list {
+  margin-top: 20px;
+}
+
+.address-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.address-list li {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background: #fafafa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* ---------- Mobile Responsiveness ---------- */
+@media (max-width: 768px) {
+  .customer-detail-page {
+    padding: 10px;
+  }
+
+  .customer-detail-page h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .customer-detail-page p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .customer-detail-page .btn {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  .address-list li {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+/* ---------- Extra Small Screens ---------- */
+@media (max-width: 480px) {
+  .customer-detail-page h2 {
+    font-size: 18px;
+  }
+
+  .customer-detail-page p {
+    font-size: 13px;
+  }
+
+  .address-list li {
+    font-size: 13px;
+  }
+}
+
+/* .customer-detail-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
 
 .customer-detail-page h2 {
@@ -58,4 +161,4 @@
   .address-list li {
     font-size: 14px;
   }
-}
+} */
